@@ -26,7 +26,8 @@ RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so
 
 EXPOSE 22
 
-RUN echo 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMEz7XGDajQi/cTgig1wS3Z+3a7fJKGQ2212IuXkWTXM mcopik@mcopik-PC' > ${HOME}/.ssh/authorized_keys
+# Alternatively, put the key in AWS secrets
+RUN echo '<publich SSH key>' > ${HOME}/.ssh/authorized_keys
 
 CMD ["/usr/sbin/sshd", "-D"]
 

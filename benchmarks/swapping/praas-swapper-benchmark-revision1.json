@@ -1,0 +1,110 @@
+{
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:261490803749:task-definition/praas-swapper-benchmark:1",
+    "containerDefinitions": [
+        {
+            "name": "process",
+            "image": "261490803749.dkr.ecr.us-east-1.amazonaws.com/praas:process-swapper",
+            "cpu": 0,
+            "links": [],
+            "portMappings": [
+                {
+                    "name": "process-8080-tcp",
+                    "containerPort": 8080,
+                    "hostPort": 8080,
+                    "protocol": "tcp",
+                    "appProtocol": "http"
+                }
+            ],
+            "essential": true,
+            "entryPoint": [],
+            "command": [],
+            "environment": [],
+            "environmentFiles": [],
+            "mountPoints": [],
+            "volumesFrom": [],
+            "secrets": [],
+            "dnsServers": [],
+            "dnsSearchDomains": [],
+            "extraHosts": [],
+            "dockerSecurityOptions": [],
+            "dockerLabels": {},
+            "ulimits": [],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/praas-swapper-benchmark",
+                    "awslogs-create-group": "true",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "ecs"
+                },
+                "secretOptions": []
+            },
+            "systemControls": []
+        }
+    ],
+    "family": "praas-swapper-benchmark",
+    "taskRoleArn": "arn:aws:iam::261490803749:role/ecs-exec-demo-task-role",
+    "executionRoleArn": "arn:aws:iam::261490803749:role/ecs-exec-demo-task-execution-role",
+    "networkMode": "awsvpc",
+    "revision": 1,
+    "volumes": [],
+    "status": "ACTIVE",
+    "requiresAttributes": [
+        {
+            "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
+        },
+        {
+            "name": "ecs.capability.execution-role-awslogs"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.ecr-auth"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.19"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.17"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.task-iam-role"
+        },
+        {
+            "name": "ecs.capability.execution-role-ecr-pull"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.18"
+        },
+        {
+            "name": "ecs.capability.task-eni"
+        },
+        {
+            "name": "com.amazonaws.ecs.capability.docker-remote-api.1.29"
+        }
+    ],
+    "placementConstraints": [],
+    "compatibilities": [
+        "EC2",
+        "FARGATE"
+    ],
+    "requiresCompatibilities": [
+        "FARGATE"
+    ],
+    "cpu": "1024",
+    "memory": "2048",
+    "runtimePlatform": {
+        "cpuArchitecture": "X86_64",
+        "operatingSystemFamily": "LINUX"
+    },
+    "registeredAt": "2022-12-13T18:03:36.257Z",
+    "registeredBy": "arn:aws:iam::261490803749:root",
+    "tags": [
+        {
+            "key": "ecs:taskDefinition:createdFrom",
+            "value": "ecs-console-v2"
+        },
+        {
+            "key": "ecs:taskDefinition:stackId",
+            "value": "arn:aws:cloudformation:us-east-1:261490803749:stack/ECS-Console-V2-TaskDefinition-a28f0e9b-2a6f-40fb-9807-e658e8f599ea/739940b0-7b10-11ed-a39b-0eb5307ee2f7"
+        }
+    ]
+}

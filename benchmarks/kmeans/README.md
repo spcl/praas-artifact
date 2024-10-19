@@ -1,6 +1,6 @@
 
 
-The full benchmark is available in original benchmarking repository for the Kubernetes port of PraaS: https://github.com/spcl/praas-bundle
+The full benchmark is available in original benchmarking repository for the Kubernetes port of PraaS: https://github.com/spcl/praas-kubernetes
 
 The data consists of items from these three files:
 * **PraaS**: `aws-praas-kmeans-balanced-removed-duplicates.txt` (which is `aws-praas-kmeans-balanced.txt` with removed redundant entries).

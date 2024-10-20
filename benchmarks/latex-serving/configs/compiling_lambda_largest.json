@@ -1,0 +1,15 @@
+{
+  "inputs_directory": "input",
+  "input_files": [
+    "secs/acks.tex",
+    "secs/multi.tex",
+    "secs/core.tex",
+    "sampleteaser.pdf"
+  ],
+  "resources_memory": "3538",
+  "repetitions": 50,
+  "output_file": "latex_compiling_lambda_largest.csv",
+"lambda_url_update_file": "https://6jjqztlz7p7hta4rkkcxqa5wym0xzqjn.lambda-url.us-east-1.on.aws/",
+"lambda_url_compile": "https://bh6zsqb6xtj4mjminef3lsxwmm0qiwyn.lambda-url.us-east-1.on.aws/",
+"lambda_url_get_pdf": "https://nduonoayderkojq3kpokhr3yg40vcdln.lambda-url.us-east-1.on.aws/"
+}

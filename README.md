@@ -1,8 +1,25 @@
-# praas-artifact
+# Artifact for the paper "Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes"
 
-TODO: describe set up, link the source code repositories.
+[Source code repository](https://github.com/spcl/praas)
 
-TOOD: mention papers.
+[Paper](https://mcopik.github.io/assets/pdf/2024_praas_preprint.pdf)
+
+```
+@inproceedings{copik2024praas,
+  author = {Copik, Marcin and Calotoiu, Alexandru and Rethy, Gyorgy and Böhringer, Roman and Bruno, Rodrigo and Hoefler, Torsten},
+  title = {Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes},
+  year = {2024},
+  isbn = {9798400712869},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3698038.3698567},
+  doi = {10.1145/3698038.3698567},
+  booktitle = {Proceedings of the 2024 ACM Symposium on Cloud Computing},
+  keywords = {Serverless, Function-as-a-Service, Operating Systems},
+  location = {Redmond, WA, USA},
+  series = {SoCC '24}
+}
+```
 
 ## Section 2
 

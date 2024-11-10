@@ -1,5 +1,9 @@
 # praas-artifact
 
+TODO: describe set up, link the source code repositories.
+
+TOOD: mention papers.
+
 ## Section 2
 
 Benchmark, data, and analysis for Table 1 is in `storage_microbenchmarks`.
@@ -18,7 +22,7 @@ Data and analysis can be found in `benchmark/state`.
 
 ## Section 6.4
 
-TODO
+Data and analysis can be found in `benchmark/latex-serving`.
 
 ## Section 6.5 
 

@@ -1,0 +1,5 @@
+{
+  "subnet": "<fill-subnet-of-your-fargate-cluster>",
+  "cluster_name": "<fill-name-of-your-fargate-cluster>"
+}
+

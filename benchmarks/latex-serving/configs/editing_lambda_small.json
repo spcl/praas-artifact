@@ -1,0 +1,14 @@
+{
+  "inputs_directory": "input",
+  "input_files": [
+    "secs/acks.tex",
+    "secs/multi.tex",
+    "secs/core.tex",
+    "sampleteaser.pdf"
+  ],
+  "resources_memory": "443",
+  "repetitions": 50,
+  "output_file": "latex_editing_lambda_small.csv",
+  "lambda_url_update": "https://6jjqztlz7p7hta4rkkcxqa5wym0xzqjn.lambda-url.us-east-1.on.aws/",
+  "lambda_url_get": "https://mgfaee24bzdvcydfh4b2e7kfru0hvaai.lambda-url.us-east-1.on.aws/"
+}

@@ -1,6 +1,8 @@
 # Artifact for the paper "Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes"
 
-[Source code repository](https://github.com/spcl/praas)
+[Main prototype source code repository](https://github.com/spcl/praas)
+
+[Second, Kubernetes-based prototype repository](https://github.com/spcl/praas-kubernetes)
 
 [Paper](https://mcopik.github.io/assets/pdf/2024_praas_preprint.pdf)
 
